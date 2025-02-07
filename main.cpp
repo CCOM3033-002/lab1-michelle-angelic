@@ -11,6 +11,10 @@ using namespace std;
 
 int main() {
 
+// display purpose of the program
+
+cout << "This program calculates the Gross and Net Box Office Profit and the Distributer's Profit of a movie playing in the theater." << endl;
+
 // ask for the name of the movie
 
 string movie_name;
@@ -23,13 +27,13 @@ getline(cin, movie_name);
 // ask for how many adult tickets were sold 
 
 double adult_tickets; 
-cout << "Please enter how many adult tickets were sold: " << endl; 
+cout << "Please enter how many adult tickets were sold: "; 
 cin >> adult_tickets;
 
 // ask how many children's tickets were sold
 
 double children_tickets; 
-cout << "Please enter how many children's tickets were sold: " << endl;
+cout << "Please enter how many children's tickets were sold: ";
 cin >> children_tickets;
 
 // calculate gross box office profit
