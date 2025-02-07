@@ -12,7 +12,7 @@ using namespace std;
 
 string movie_name;
 cout << "Please enter the name of the movie: ";
-cin >> movie_name;
+getline (cin, movie_name);
 
 // ask for how many adult tickets were sold 
 
